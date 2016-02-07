@@ -142,6 +142,9 @@ input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+input:-webkit-autofill {
+  background: #fff;
+}
 input {
   line-height: normal;
 }
@@ -2783,6 +2786,9 @@ fieldset[disabled] .form-control {
 textarea.form-control {
   height: auto;
 }
+.form-placeholder {
+  color: #b8b8b8;
+}
 input[type="search"] {
   -webkit-appearance: none;
 }
@@ -3076,9 +3082,13 @@ select[multiple].form-group-lg .form-control {
 .has-error .form-control-feedback {
   color: #f97352;
 }
+.form-invalid,
 .form-control:invalid {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+.form-active .form-invalid {
+  border-color: #f97352;
 }
 .form-active .form-control:invalid {
   border-color: #f97352;
