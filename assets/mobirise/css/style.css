@@ -1119,6 +1119,7 @@ html {
   position: relative;
   text-align: center;
   width: 56px;
+  border-radius: 50%;
 }
 .mbr-social-icons__icon:hover {
   color: #fff;
