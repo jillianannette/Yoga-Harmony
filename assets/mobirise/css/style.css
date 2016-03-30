@@ -124,7 +124,6 @@ html {
 }
 .mbr-navbar__brand-img {
   position: relative;
-  max-width: 330px;
 }
 .mbr-navbar__brand-img,
 .mbr-navbar__container,
@@ -1120,7 +1119,6 @@ html {
   position: relative;
   text-align: center;
   width: 56px;
-  border-radius: 50%;
 }
 .mbr-social-icons__icon:hover {
   color: #fff;
@@ -1366,7 +1364,7 @@ html {
 }
 .mbr-article--wysiwyg blockquote {
   font-size: 17px;
-  border-color: #777;
+  border-color: #f97352;
 }
 @media (max-width: 767px) {
   .mbr-article--auto-align.mbr-article--wysiwyg p,
