@@ -124,6 +124,7 @@ html {
 }
 .mbr-navbar__brand-img {
   position: relative;
+  max-width: 330px;
 }
 .mbr-navbar__brand-img,
 .mbr-navbar__container,
@@ -1043,7 +1044,7 @@ html {
   }
 }
 .mbr-header {
-  margin-top: -20px;
+  margin-top: -10px;
   padding: 0;
   position: relative;
   text-align: left;
@@ -1119,6 +1120,7 @@ html {
   position: relative;
   text-align: center;
   width: 56px;
+  border-radius:  50px;
 }
 .mbr-social-icons__icon:hover {
   color: #fff;
@@ -1130,7 +1132,7 @@ html {
   color: #9c9c9c;
   font-size: 14px;
   line-height: 1.7em;
-  padding: 45px 0 46px;
+  padding: 45px 0 0;
 }
 .mbr-contacts__img {
   max-width: 100%;
@@ -1140,7 +1142,7 @@ html {
   margin-left: 0;
 }
 .mbr-contacts__text {
-  margin: 0;
+  text-align: center;
 }
 .mbr-contacts__header {
   color: #fff;
@@ -1171,7 +1173,7 @@ html {
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 1.5em;
-  padding: 37px 0 39px;
+  padding: 15px;
   word-spacing: 1px;
 }
 .mbr-footer__copyright {
@@ -1364,7 +1366,7 @@ html {
 }
 .mbr-article--wysiwyg blockquote {
   font-size: 17px;
-  border-color: #f97352;
+  border-color: #252525;
 }
 @media (max-width: 767px) {
   .mbr-article--auto-align.mbr-article--wysiwyg p,
@@ -1432,15 +1434,14 @@ html {
 .mbr-plan__number {
   border-bottom: 1px dotted #ddd;
   color: #333;
-  font-size: 80px;
+  font-size: 50px;
   line-height: 0;
   margin: 0px 10px;
-  padding: 41px 0;
+  padding: 35px 0;
   text-align: center;
-  margin-bottom: 41px;
 }
 .mbr-plan__details {
-  padding-bottom: 41px;
+  padding: 20px 0;
 }
 .mbr-plan__details ul,
 .mbr-plan__list {
@@ -1450,7 +1451,7 @@ html {
 }
 .mbr-plan__details li,
 .mbr-plan__item {
-  line-height: 40px;
+  line-height: 25px;
   padding: 0 15px;
   text-align: center;
 }
@@ -1573,4 +1574,29 @@ html {
 	text-indent: -2400px;
 	text-align: center;
 	padding: 0;
+}
+
+/* NEW CSS */
+
+.mbr-social-icons {
+  text-align: right;
+}
+
+.img-teacher img {
+  max-width: 300px;
+}
+
+.footer-border {
+    border-top: 4px solid rgb(239, 239, 239);
+}
+
+@media (max-width: 767px) {
+  .mbr-social-icons {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .mbr-footer {
+    text-align: center;
+  }
+}
 }
