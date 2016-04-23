@@ -538,7 +538,7 @@ html {
   padding: 93px 0;
 }
 .mbr-section__container--std-top-padding {
-  padding-top: 93px;
+  padding-top: 30px;
 }
 .mbr-section__container--std-bot-padding {
   padding-bottom: 93px;
@@ -591,7 +591,7 @@ html {
     padding: 59px 0;
   }
   .mbr-section--short-paddings .mbr-section__container--std-top-padding {
-    padding-top: 59px;
+    padding-top: 30px;
   }
   .mbr-section--short-paddings .mbr-section__container--std-bot-padding {
     padding-bottom: 59px;
@@ -1497,9 +1497,6 @@ html {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .mbr-plan__number {
-    font-size: 79px;
-  }
   .mbr-plan__details {
     font-size: 17px;
   }
@@ -1587,7 +1584,11 @@ html {
 }
 
 .footer-border {
-    border-top: 4px solid rgb(239, 239, 239);
+  border-top: 4px solid rgb(239, 239, 239);
+}
+
+.pricing-table {
+  padding: 0 20px; 
 }
 
 @media (max-width: 767px) {
