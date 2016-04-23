@@ -535,13 +535,13 @@ html {
   text-align: center;
 }
 .mbr-section__container--std-padding {
-  padding: 93px 0;
+  padding: 30px 0;
 }
 .mbr-section__container--std-top-padding {
   padding-top: 30px;
 }
 .mbr-section__container--std-bot-padding {
-  padding-bottom: 93px;
+  padding-bottom: 30px;
 }
 .mbr-section__container--sm-padding {
   padding: 41px 0;
@@ -553,15 +553,15 @@ html {
   padding-bottom: 41px;
 }
 .mbr-section__container--isolated {
-  padding-bottom: 93px;
-  padding-top: 93px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .mbr-section__container--first {
   padding-top: 93px;
   padding-bottom: 41px;
 }
 .mbr-section__container--middle {
-  padding-bottom: 41px;
+  padding-bottom: 30px;
 }
 .mbr-section__container--last {
   padding-bottom: 93px;
@@ -1322,7 +1322,7 @@ html {
   line-height: 27px;
   text-align: left;
   position: relative;
-  margin-top: -21px;
+  margin-top: -12px;
   top: 14px;
 }
 .mbr-article--wysiwyg h1,
