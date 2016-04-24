@@ -1595,6 +1595,11 @@ html {
 
 }
 
+.btn-primary {
+  background-color: #006a72;
+  border-color: #006a72;
+}
+
 @media (max-width: 767px) {
   .mbr-social-icons {
     text-align: center;
