@@ -1608,6 +1608,10 @@ h2 {
   font-size: 20px;
 }
 
+.home-rotator {
+  text-shadow: 1px 2px 3px #666;
+}
+
 @media (max-width: 767px) {
   .mbr-social-icons {
     text-align: center;
