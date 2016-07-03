@@ -1609,7 +1609,7 @@ h2 {
 }
 
 .home-rotator {
-  text-shadow: 1px 2px 3px #666;
+  text-shadow: 2px 2px 10px #333;
 }
 
 @media (max-width: 767px) {
