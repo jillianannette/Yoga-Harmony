@@ -805,12 +805,13 @@ html {
   top: 8px;
 }
 .mbr-hero__subtext {
-  font-size: 21px;
-  line-height: 29px;
-  margin: -32px 0 3px 0;
-  padding: 0 0 41px 0;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 20px;
+  padding: 0;
   position: relative;
   top: 6px;
+  color: #666666;
 }
 .mbr-figure {
   display: inline-block;
