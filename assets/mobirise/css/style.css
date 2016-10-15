@@ -1656,9 +1656,9 @@ h2 {
 }
 
 .emma-show form header h1 {
-    letter-spacing: 0px;
+    letter-spacing: 0px !important;
 }
 
 .emma-show form header h2 {
-    letter-spacing: 0px;
+    letter-spacing: 0px !important;
 }
