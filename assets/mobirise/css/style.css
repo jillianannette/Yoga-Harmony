@@ -1655,6 +1655,10 @@ h2 {
 }
 }
 
-.emma-show h1, h2 {
-    letter-spacing: 0px !important;
+.emma-form form header h1 {
+    letter-spacing: 0px;
+}
+
+.emma-form form header h2 {
+    letter-spacing: 0px;
 }
