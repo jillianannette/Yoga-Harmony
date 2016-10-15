@@ -452,7 +452,7 @@ html {
   vertical-align: middle;
 }
 .mbr-brand--inline .mbr-brand__logo {
-  padding-right: 10px;
+  padding-right: 25px;
 }
 .mbr-brand--inline .mbr-brand__name {
   margin: 0;
@@ -1650,7 +1650,7 @@ h2 {
   }
   .mbr-navbar__brand-img {
     position: relative;
-    max-width: 230px;
+    max-width: 100%;
 }
 }
 }
