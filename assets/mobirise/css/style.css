@@ -122,9 +122,10 @@ html {
     padding: 7px 0;
   }
 }
+
 .mbr-navbar__brand-img {
   position: relative;
-  max-width: 300px;
+  max-width: 330px;
 }
 .mbr-navbar__brand-img,
 .mbr-navbar__container,
@@ -288,6 +289,7 @@ html {
   .mbr-navbar--auto-collapse .mbr-navbar__column {
     display: block;
     width: 100%;
+    padding: 15px;
   }
   .mbr-navbar--auto-collapse .mbr-navbar__items--right {
     padding-top: 13px;
@@ -1646,5 +1648,9 @@ h2 {
   .mbr-footer {
     text-align: center;
   }
+  .mbr-navbar__brand-img {
+    position: relative;
+    max-width: 280px;
+}
 }
 }
