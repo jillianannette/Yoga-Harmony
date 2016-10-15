@@ -1661,9 +1661,11 @@ h2 {
     letter-spacing: 0px;
 }
  
+/*
 #emma-form-f2d8721e13a79f76bdd2dd37878815af form div input[type="email"] {
     width: 240px !important;
 }
+*/
 
 #emma-form-f2d8721e13a79f76bdd2dd37878815af form button {
     width: 240px !important;
