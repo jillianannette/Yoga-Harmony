@@ -1657,17 +1657,12 @@ h2 {
 
 /* EMMA FORM STYLING */
 
-/*.emma-show h1, h2 {
+.emma-show h1, h2 {
     letter-spacing: 0px;
-} */
-
-#emma-form-f2d8721e13a79f76bdd2dd37878815af form div input[type="text"], 
-#emma-form-f2d8721e13a79f76bdd2dd37878815af form div input[type="email"], 
-#emma-form-f2d8721e13a79f76bdd2dd37878815af form div select[multiple], 
-#emma-form-f2d8721e13a79f76bdd2dd37878815af form div input[type="number"], 
-#emma-form-f2d8721e13a79f76bdd2dd37878815af form div textarea {
+}
+ 
+#emma-form-f2d8721e13a79f76bdd2dd37878815af form div input[type="email"] {
     width: 240px !important;
-    letter-spacing: 0px;
 }
 
 #emma-form-f2d8721e13a79f76bdd2dd37878815af form button {
