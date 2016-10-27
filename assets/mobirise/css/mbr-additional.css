@@ -30,6 +30,11 @@
 #slider-32 .btn {
   font-family: 'Oxygen', sans-serif;
 }
+
+#slider-32 .btn:hover {
+  text-shadow: none;
+}
+
 #msg-box3-62 .mbr-header .mbr-header__text {
   text-align: center;
   font-family: 'Arimo', sans-serif;
