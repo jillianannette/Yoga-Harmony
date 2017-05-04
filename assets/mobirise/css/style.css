@@ -1642,6 +1642,12 @@ h2 {
   padding: 20px;
 }
 
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 @media (max-width: 767px) {
   .mbr-social-icons {
     text-align: center;
